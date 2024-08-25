@@ -1,0 +1,43 @@
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.not-found-image {
+  width: 30%;
+  border-radius: 8px;
+}
+
+.not-para {
+  font-weight: 600;
+  font-size: 23px;
+  font-family: Bree Serif;
+  letter-spacing: 1px;
+}
+
+.not-button {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #00aaf5;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-image {
+    width: 70%;
+  }
+}
+
+.not-button:hover {
+  background-color: #4cc4f7;
+}

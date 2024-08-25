@@ -1,0 +1,148 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.serach-container {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1.5px solid black;
+  border-radius: 24px;
+  margin-top: 25px;
+  height: 35px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.serach-container:hover {
+  border: 2px solid black;
+}
+
+.search-element {
+  outline: none;
+  height: 30px;
+  width: 100%;
+  padding-left: 5px;
+  border: none;
+}
+
+.search-icon-container {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1.5px solid black;
+  height: 35px;
+  background-color: black;
+  color: #ffffff;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  padding-right: 2px;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .serach-container {
+    width: 80%;
+  }
+}
+
+.tabs-list {
+  align-self: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  margin-top: 26px;
+}
+
+@media screen and (min-width: 1040px) {
+  .tabs-list {
+    padding-right: 65px;
+  }
+}
+
+.tabs-list-item {
+  font-weight: 500;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.tabs-list-item:hover {
+  background-color: #e1e3e7;
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  height: 25px;
+  padding: 5px 16px 7px 16px;
+  color: black;
+}
+
+.active-tab {
+  background-color: black;
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  height: 25px;
+  padding: 5px 16px 7px 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs-list {
+    width: 30%;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .tabs-list-item {
+    font-weight: 400;
+    margin-bottom: 7px;
+    font-size: 16px;
+  }
+}
+
+.blogs-list {
+  margin-top: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.no-blog-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.no-blog-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .no-blog-container {
+    width: 70%;
+  }
+}
+.not {
+  font-weight: 600;
+  font-size: 18px;
+}
